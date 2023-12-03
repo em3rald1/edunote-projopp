@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "consolas";
+}
+
+#header {
+    background-color: #F86400;
+    color: #033855;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#outermain {
+    display: flex;
+    flex-direction: row;
+    min-height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #0E65A3;
+    color: #033855;
+    min-height: 600px;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#main {
+    background-color: #033855;
+    color: white;
+    min-height: 600px;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 1%;
+}
